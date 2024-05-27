@@ -57,6 +57,14 @@ class BookYourTrip {
   }
 
   // Methods
+  /**
+   * Does something nifty.
+   *
+   * @param   {number} month enter month in 2 digit fromat example 01 is Jan
+   * @param   {number} day enter day in 2 digit format, example 05 for the fifth day
+   * @param   {number} year enter year in a 4 digit format, example 2024
+   * @returns Your date in an orgnaized way example (2024-01-05).
+   */
   getNewDate(month, day, year) {
     return `${year}-${month}-${day}`;
   }

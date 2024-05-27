@@ -94,24 +94,3 @@ describe("Cypress Project 03 - submission and date-picking processes", () => {
     });
   });
 });
-
-/*
-Navigate to https://techglobal-training.com/frontend/project-3
-Select the “One way” radio button
-Select “Premium Economy” for the “Cabin Class” dropdown
-Select “New York” for the “From” dropdown
-Select “Texas” for the “To” dropdown
-Select the next day for the ”Depart”
-Select “2” for the “Number of passengers” dropdown
-Select “Adult (16-64)” for the Passenger 1 dropdown
-Select “Child (2-11)” for the Passenger 2 dropdown
-Click on the “BOOK” button
-Validate the booking information displayed below
-DEPART
-NY to TX
-{dynamic date}
-Number of passengers: 2
-Passenger 1: Adult (16-64)
-Passenger 2: Child (2-11)
-Cabin Class: Premium Economy
-*/
