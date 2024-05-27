@@ -1,7 +1,7 @@
 /// <reference types="cypress"/>
 import BookYourTrip from "../pages/BookYourTrip";
-const date = new Date();
 const bookYourTrip = new BookYourTrip();
+const date = new Date();
 
 describe("Cypress Project 03 - submission and date-picking processes", () => {
   beforeEach(() => {
